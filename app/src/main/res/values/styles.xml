@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="customTabPageIndicatorStyle" parent="Theme.AppCompat.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/MyTabPageIndicatorStyle</item>
+    </style>
+
+    <style name="MyTabPageIndicatorStyle" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/my_background</item>
+        <item name="android:textColor">@color/color_selector</item>
+        <item name="android:textSize">16sp</item>
+        <!--<item name="android:divider">@drawable/custom_tab_indicator_divider</item>-->
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="boldStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normalStyle">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
